@@ -1,7 +1,12 @@
 import React from 'react'
 import point from '/assets/rights.png'
+import right from '/assets/Right.png'
+import { useNavigate } from "react-router-dom";
+
+    
 
 function Malpractice() {
+    const navigate = useNavigate();
     return (
         <div>
 
@@ -68,7 +73,14 @@ function Malpractice() {
                         </div>
                         <div className='flex items-start  2xl:px-4 xl:px-4 lg:px-4 px-1'><img src={point} alt='icon' className='w-[18px] h-[18px] mt-1' /> <p className="text-base mb-2 poppins-regular lg:ml-4 ml-1">They should submit their reviews in a timely manner and adhere to ethical guidelines, ensuring that all manuscripts meet the journal’s standards for publication.</p><br />
                         </div>
+                        <div className="text-center px-4 lg:px-0 mt-2 mb-2">
 
+                            <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold" onClick={() => navigate('/authorguidelinespage')}>
+                                <div className='flex justify-between '>  Review Guidelines
+                                    <img src={right} alt="Submit Icon" /></div>
+                            </button>
+
+                        </div>
                     </div>
                 </div>
 

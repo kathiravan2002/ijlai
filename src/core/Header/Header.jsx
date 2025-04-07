@@ -4,7 +4,6 @@ import { FaChevronDown, FaUpload } from "react-icons/fa";
 import NavItems from "./NavItems";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from '/assets/logo.png'
-import logo from '/assets/Fav.png'
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -186,7 +185,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="flex justify-center items-center ">
-            <Link to="" target="_blank" rel="noopener noreferrer">
+            <Link to="https://ijlai.com/ijlai/index.php/ijlai/about/submissions" target="_blank" rel="noopener noreferrer">
             <button className="text-white poppins-regular bg-[#3F2305] rounded-lg lg:p-1 lg:px-4   py-1 px-2">
              <div className="flex justify-between  text-nowrap gap-2 "> Submit Paper <FaUpload className="mt-1" /></div>
             </button>
