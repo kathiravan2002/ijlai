@@ -86,7 +86,7 @@ const Home = () => {
 
                 <div className="flex justify-center items-center ">
                   <Link to="https://ijlai.com/ijlai/index.php/ijlai/about/submissions" target="_blank" rel="noopener noreferrer">
-                    <button className="text-white poppins-regular bg-[#3F2305] rounded-lg lg:p-1 lg:px-4   py-1 px-2">
+                    <button className="text-white poppins-regular bg-[#3F2305] rounded-lg lg:p-1 lg:px-4   py-1 px-2 cursor-pointer">
                       <div className="flex justify-between  text-nowrap gap-2 "> Submit Paper <FaUpload className="mt-1" /></div>
                     </button>
                   </Link>
@@ -107,7 +107,7 @@ const Home = () => {
                   <div className='flex  gap-2 mb-[5px]'><img src={point} alt='icon' className='w-[18px] h-[18px] mt-1' /><p>Leadership, management, and innovation.</p></div>
                 </div>
                 <div className="px-4 lg:px-0  flex justify-end items-end 2xl:mt-2 xl:mt-8 lg:mt-8">
-                  <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold mt-3 " onClick={() => navigate('/aboutus')}>
+                  <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold mt-3 cursor-pointer" onClick={() => navigate('/aboutus')}>
                     <div className='flex justify-between gap-3'>  Learn More
                       <img src={right} alt="Submit Icon" />
                     </div>
@@ -125,7 +125,7 @@ const Home = () => {
                   <div className='flex  gap-2 mb-[5px]'><img src={point} alt='icon' className='w-[18px] h-[18px] mt-1' /><p>Interdisciplinary collaboration.</p></div>
                 </div>
                 <div className="px-4 lg:px-0  flex justify-end items-end  mt-2">
-                  <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold mt-3 " onClick={() => navigate('/aimscope')}>
+                  <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold mt-3 cursor-pointer" onClick={() => navigate('/aimscope')}>
                     <div className='flex justify-between gap-3'>  Learn More
                       <img src={right} alt="Submit Icon" />
                     </div>

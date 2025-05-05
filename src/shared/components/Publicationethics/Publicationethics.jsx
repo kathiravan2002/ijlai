@@ -49,7 +49,7 @@ function Publicationethics() {
                     <div className='bg-white rounded-tr-[25px] rounded-tl-[25px] rounded-2xl p-3 border border-[#3F2305] h-full'>
 
                         <div className='flex flex-col mb-2 mt-2 lg:ml-4 ml-1'>
-                            <h2 className='poppins-bold text-lg text-[#3F2305] '>Open Acess Policy</h2>
+                            <h2 className='poppins-bold text-lg text-[#3F2305] '>Open Access Policy</h2>
                             <div className='bg-[#3F2305] h-1 w-[167px]'></div>
                         </div>
                         <div className='flex items-start  2xl:px-4 xl:px-4 lg:px-4 px-1'><img src={point} alt='icon' className='w-[18px] h-[18px] mt-1' /> <p className="text-base mb-2 poppins-regular lg:ml-4 ml-1">In IJLAI, the open access policy ensures that all published research is freely accessible to readers worldwide.</p><br /> </div>

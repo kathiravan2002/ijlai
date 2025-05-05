@@ -70,7 +70,7 @@ function Correction() {
                         </div>
                         <div className="text-center px-4 lg:px-0 mt-2 mb-2">
 
-                            <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold" onClick={() => navigate('/editorial')}>
+                            <button className="bg-[#3F2305] text-white px-4 py-2 rounded-lg  poppins-bold cursor-pointer" onClick={() => navigate('/editorial')}>
                                 <div className='flex justify-between '>  Contact Editorial Team
                                     <img src={right} alt="Submit Icon" /></div>
                             </button>
